@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- logo and title -->
+    <link rel="icon" href="./src/img/logo.png" type="image/x-icon" />
+    <title>NewtonKeApple</title>
+  </head>
+  <body>
+    <!-- header from shubham -->
+    <div class="header">
+      <div class="navbar">
+        <img class="logo" src="./src/img/logo3.png" />
+        <!-- <img class="logo_name1" src="./src/img/logo_name.png" /> -->
+        <div class="category_select" id="category">
+          <div class="select">
+            <p id="text">Category</p>
+            <i class="fa-solid fa-chevron-down" id="moving"></i>
+          </div>
+
+          <ul class="option_box" id="list">
+            <li class="option" onclick="chooseCategory('All')">
+              <!-- <i class="fa-solid fa-mobile-screen"></i> -->
+              <i class="fa-solid fa-table-list"></i>
+              <p class="option-all">All</p>
+            </li>
+            <li class="option" onclick="chooseCategory('Mobiles')">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <p class="option-mobile">Mobiles</p>
+            </li>
+            <li class="option" onclick="chooseCategory('Laptops')">
+              <i class="fa-solid fa-laptop"></i>
+              <p>Laptops</p>
+            </li>
+            <li class="option" onclick="chooseCategory('Headphones')">
+              <i class="fa-solid fa-headphones"></i>
+              <p>Headphones</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search_box">
+          <input
+            type="text"
+            class="searchclass"
+            id="searchid"
+            placeholder="Search..."
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="filter" id="filter-icon" ;>
+          <i class="fa-solid fa-filter"></i>
+          <ul class="filter-box" id="filter-box">
+            Filter By Price:
+            <i
+              id="filter-close-button"
+              class="filter-close-button fa-solid fa-circle-xmark"
+              onclick="closeFilterSection()"
+            ></i>
+            <li class="filter-option">
+              Min:
+              <input id="min_input" type="number" placeholder="" />
+            </li>
+            <li class="filter-option">
+              Max:
+              <input id="max_input" type="number" placeholder="" />
+            </li>
+            <div class="filter-buttons">
+              <div class="filter-applyButton" onclick="applyPriceFilter()">
+                Apply
+              </div>
+              <div class="filter-resetButton" onclick="resetDisplayCards()">
+                Reset
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <div class="selling_page">
+          <button id="sell">
+            <i class="fa-solid fa-plus"></i>
+            <p>SELL</p>
+          </button>
+        </div>
+
+        <div class="user">
+          <div class="usericon" id="userid">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card section - s from gautham-->
+    <div class="card-cardSection" id="card-cardSection">
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+      <div class="card-cardHolder">
+        <div class="card-cardExceptIcon">
+          <img
+            class="card-image"
+            src="https://media.flixcar.com/delivery/static/inpage/9/images/loading.gif"
+          />
+          <div class="card-details">
+            <h4 class="card-itemPriceSec">Loading...</h4>
+            <h4 class="card-itemTitle">Loading...</h4>
+            <!-- <h4 class="card-itemDesc">Item Description</h4> -->
+          </div>
+        </div>
+        <i
+          class="card-icon card-addToWatchList-notAdded fa-solid fa-apple-whole"
+        ></i>
+      </div>
+    </div>
+
+    <!-- modal section -->
+    <div class="component-hide blur-bg" onclick="closeModal()"></div>
+    <div class="component-hide modal-container">
+      <img
+        class="modal-image"
+        src="https://cdn.dribbble.com/users/1415337/screenshots/10781083/loadingdots2.gif"
+      />
+      <div class="modal-contents">
+        <div class="modal-priceSection">
+          <div class="modal-priceSecTop">
+            <div class="modal-price">₹ $$$$$</div>
+            <div class="modal-buttons">
+              <i class="modal-icon fa-solid fa-share-nodes"></i>
+              <i class="modal-icon fa-solid fa-apple-whole"></i>
+            </div>
+          </div>
+          <div class="modal-title">Title is loading...</div>
+        </div>
+        <div class="modal-descriptionSection">
+          <h4>Description:</h4>
+          <p class="modal-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+            dolores.
+          </p>
+        </div>
+        <div class="modal-contactSection">
+          <div onclick="openCloseContact()" class="modal-contactButton">
+            Contact Seller
+          </div>
+          <div class="modal-cI-close modal-contactInfo">
+            +91 98765 43210
+            <i class="whatsapp-icon fa-brands fa-whatsapp fa-fade"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer from Shubham -->
+    <div class="outer_footer">
+      <div class="footer">
+        <div class="inner_footer">
+          <h2>POPULAR LOCATIONS</h2>
+          <p>Bangalore</p>
+          <p>Mumbai</p>
+          <p>Pune</p>
+        </div>
+        <div class="inner_footer">
+          <h2>OTHER COUNTRIES</h2>
+          <p>Indonesia</p>
+          <p>South Africa</p>
+          <p>UAE</p>
+        </div>
+        <div class="inner_footer">
+          <h2>CONTACT US</h2>
+
+          <p>
+            <i class="fa-solid fa-square-envelope"></i>
+            contactus@nka.com
+          </p>
+          <p>
+            <i class="fa-solid fa-square-envelope"></i>
+            support@nka.com
+          </p>
+          <p><i class="fa-solid fa-square-phone"></i> 1800-000-000</p>
+        </div>
+        <div class="inner_footer">
+          <h2>FOLLOW US</h2>
+          <p>
+            <i class="fa-brands fa-square-facebook"></i>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+          </p>
+          <p>
+            <i class="fa-brands fa-square-instagram"></i>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          </p>
+          <p>
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/2fe2a0f171.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script type="text/javascript" src="data.json"></script> -->
+    <script type="text/javascript" src="database.json"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <!-- <script type="text/javascript" src="ind2.js"></script> -->
+  </body>
+</html>

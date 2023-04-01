@@ -1,0 +1,242 @@
+[
+    {
+      "id": "1",
+      "category": "Headphones",
+      "title": "boAt Rockerz 400",
+      "price": "899",
+      "description": "Bluetooth On Ear Headphones(Grey/Green). 40mm driver. 8 hours playtime. The easy access integrated controls with built-in mic offers a smooth user experience and hands-free communication on the go. Stay connected to your sound via not one but two modes: Bluetooth as well as AUX. 1 year warranty from the date of purchase",
+      "image": "https://m.media-amazon.com/images/I/61WqF8Y6HTL._SL1500_.jpg"
+    },
+    {
+      "id": "2",
+      "category": "Headphones",
+      "title": "JBL Tune 760NC",
+      "price": "5480",
+      "description": "Wireless Over Ear Active Noise Cancellation Headphones. Active noise cancellation. These Bluetooth headphones reproduce that same JBL sound, punching out bass that’s both deep and powerful. Listen wirelessly for up to 35 hours with Active Noise Cancellation or up to 50 hours without Noise Cancellation for long-lasting fun. Recharge the battery quickly in 2 hours or enjoy endlessly in wired mode using the detachable AUX cable provided.",
+      "image": "https://m.media-amazon.com/images/I/61HXCeozUjL._SL1500_.jpg"
+    },
+    {
+      "id": "3",
+      "category": "Headphones",
+      "title": "Sony WH-1000XM5",
+      "price": "29990",
+      "description": "Industry Leading noise cancellation-two processors control 8 microphones for unprecedented noise cancellation. With Auto NC Optimizer, noise cancelling is automatically optimized based on your wearing conditions and environment.Magnificent Sound, engineered to perfection with the new Integrated Processor V1.Up to 30-hour battery life with quick charging (3 min charge for 3 hours of playback)",
+      "image": "https://m.media-amazon.com/images/I/61+btxzpfDL._SL1500_.jpg"
+    },
+    {
+      "id": "4",
+      "category": "Headphones",
+      "title": "Bose Noise Cancelling 700",
+      "price": "34499",
+      "description": "Bluetooth Wireless Over Ear Headphones. Optimized for Amazon Alexa and the Google Assistant, access your voice assistant with a simple button press. Personalize your environment with 11 levels of noise cancelling - control distractions or let ambient sound in.Get up to 20 hours of wireless battery life and time-based power information.",
+      "image": "https://m.media-amazon.com/images/I/51BcwAyqVZL._SL1200_.jpg"
+    },
+    {
+      "id": "5",
+      "category": "Headphones",
+      "title": "Skullcandy Hesh EVO",
+      "price": "8299",
+      "description": "Over Ear True Black. Simple, intuitive buttons let you take calls, adjust volume and change tracks without ever touching your phone. Hesh Evo features built-in Tile finding technology. If you ever misplace your headphones, you can easily âringâ them from the Tile App. So what might have seemed lost, is now quickly found.",
+      "image": "https://m.media-amazon.com/images/I/7132xJGhhxL._SL1500_.jpg"
+    },
+    {
+      "id": "6",
+      "category": "Headphones",
+      "title": "Boult Audio ProBass Ranger",
+      "price": "1798",
+      "description": "Over-Ear Wireless. Boult’s sound signature has been packed with extra punchy and deep bass with accentuates the warm midst and crystal clear sparky highs. Transmission Distance 20m. Driver Size 50 mm.The run time is 13 hours and it has 1-2 days of standby.Designed for flexibility, Boult Audio headphones comes with a quality Aux-cable to ensure uninterrupted playing even when you run out of battery.",
+      "image": "https://m.media-amazon.com/images/I/81kwtHjr3BL._SL1500_.jpg"
+    },
+    {
+      "id": "7",
+      "category": "Headphones",
+      "title": "UNIGEN Quietbeats",
+      "price": "2999",
+      "description": "Active Noise Cancelling Bluetooth Headphones. Professional protein ear pads, 45°/90° swivelling ear cups and adjustable headband deliver better durability and comfort. Lightweight design reduces pressure on ears and make it comfortable for all-day wearing. Bluetooth 5.0 technology and ensures stable connection of upto 10m/33ft. 600mAh battery provides 10hrs of uninterrupted audio when ANC mode is on and 20hrs of music with ANC mode off. While listening on only AUX mode you can enjoy playtime of upto 30hrs.",
+      "image": "https://m.media-amazon.com/images/I/71Pa6+TTRGL._SL1500_.jpg"
+    },
+    {
+      "id": "8",
+      "category": "Headphones",
+      "title": "ZEBRONICS Zeb-Thunder",
+      "price": "629",
+      "description": "Wireless Bluetooth Over The Ear Headphone. Dust your headband to your comfortable best while you work or listen to music. 9hrs* Playback Time: Fall in love with the audio experience with 9* hours of playback time to keep you going.Be spoilt for choice with multi-connectivity options like like BT, 3.5mm AUX input, FM and MicroSD card.",
+      "image": "https://m.media-amazon.com/images/I/81lLGM7SKbL._SL1500_.jpg"
+    },
+    {
+      "id": "9",
+      "category": "Headphones",
+      "title": "HAMMER Bash",
+      "price": "1999",
+      "description": "Over The Ear Wireless Bluetooth Headphones. Go wireless to wired in a few seconds with Hammer headphones as it supports aux connectivity along with the Bluetooth connectivity.Bash headphones are ergonomically designed to give long hours of listening comfort. Spend a whole day listening to music with the soft PU cushioning of this Bluetooth headset. Bash’s portable & foldable design makes it easy to carry around.",
+      "image": "https://m.media-amazon.com/images/I/51oZ4ZKdzTL._SL1440_.jpg"
+    },
+    {
+      "id": "10",
+      "category": "Headphones",
+      "title": "Infinity JBL Glide 510",
+      "price": "1699",
+      "description": "Quick Charge, Wireless On Ear Headphone. 72 Hours Playtime Under Optimum Audio Settings.Dual Equalizer Modes for Normal & Deep Bass Output. Driver Sensitivity (1KHz / 1mW) 102±3dB. Audio Specifications: Impedence(ohms) 32 ohms.",
+      "image": "https://m.media-amazon.com/images/I/716Il5U5F4L._SL1500_.jpg"
+    },
+    {
+      "id": "11",
+      "category": "Mobiles",
+      "title": "Iphone 14 Pro",
+      "price": "123099",
+      "description": "15.54 cm (6.1-inch) Super Retina XDR display featuring Always-On and ProMotion.48MP Main camera for up to 4x greater resolution.Unlocked for All Carriers.",
+      "image": "https://m.media-amazon.com/images/I/61HHS0HrjpL._SL1500_.jpg"
+    },
+    {
+      "id": "12",
+      "category": "Mobiles",
+      "title": "Samsung Galaxy S22 Ultra",
+      "price": "99999",
+      "description": "5G Ready powered by Galaxy's first 4nm processor. Our fastest, most powerful chip ever. That means, a faster CPU and GPU compared to Galaxy S21 Ultra. It's an epic leap for smartphone technology.The Dynamic AMOLED 2x display improves outdoor visibility with up to 1750 nits in peak brightness.* And the 120Hz adaptive refresh rate keeps the scroll smooth, adjusting to what's on screen for an optimized view.",
+      "image": "https://m.media-amazon.com/images/I/71J8tz0UeJL._SL1500_.jpg"
+    },
+    {
+      "id": "13",
+      "category": "Mobiles",
+      "title": "Google Pixel 7 Pro",
+      "price": "75999",
+      "description": "The Pixel 7 Pro triple rear camera system includes a 5x telephoto lens.The updated ultrawide lens with autofocus now powers Macro Focus.The Pixel 7 Pro has a 30x Super Res Zoom for high-quality photos from far away.",
+      "image": "https://m.media-amazon.com/images/I/51f4A6Tr8zL.jpg"
+    },
+    {
+      "id": "14",
+      "category": "Mobiles",
+      "title": "Xiaomi 13 Pro",
+      "price": "79999",
+      "description": "The 6.73 inch 2K 120Hz E6 AMOLED display with a peak brightness of 1900nits meets the most demanding needs and provides the best viewing experience. The largest camera sensor on a smartphone - Sony IMX989 1 inch sensor with 3.2 μm large pixels captures brighter images even in extreme lowlight.The 120W in-box HyperCharger coupled with Xiaomi Surge charging chipset can fully charge the massive 4820mAh battery in 19 minutes.",
+      "image": "https://m.media-amazon.com/images/I/41n0qlda6gL.jpg"
+    },
+    {
+      "id": "15",
+      "category": "Mobiles",
+      "title": "Oppo F21s Pro",
+      "price": "25999",
+      "description": "6.43inch FHD+ AMOLED Punch-hole Display with 2400x1080 pixels. Large Screen to Body ratio of 90.8%. 64MP Triple Camera ( 64MP Main + 2MP macro + 2MP monochrome ) with AI Color Portrait and Dual View Video | 16MP Front Camera.",
+      "image": "https://m.media-amazon.com/images/I/7135dx-aayL._SL1500_.jpg"
+    },
+    {
+      "id": "16",
+      "category": "Mobiles",
+      "title": "Vivo X80 Pro",
+      "price": "79999",
+      "description": "8GB RAM|128GB ROM,17.22cm Full HD+ Display,4500 mAh Lithium Battery, Mediatek Dimensity 9000 Processor.",
+      "image": "https://m.media-amazon.com/images/I/313LpwmyJ+L._SY300_SX300_.jpg"
+    },
+    {
+      "id": "17",
+      "category": "Mobiles",
+      "title": "OnePlus 11",
+      "price": "56999",
+      "description": "50MP Main Camera with Sony IMX890 (OIS supported), 48MP Ultrawide Camera with Sony IMX581 (FOV: 115 degree) and 32MP Telephoto lens with Sony IMX709 (2X Optical Zoom); 16MP Front (Selfie) Camera with EIS support.Snapdragon 8 Gen 2 Mobile Platform & OxygenOS based on Android 13.",
+      "image": "https://m.media-amazon.com/images/I/41eSQvTbsaL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "18",
+      "category": "Mobiles",
+      "title": "Samsung Galaxy Z Fold 4",
+      "price": "137999",
+      "description": "The Galaxy Z Fold4 does a lot in one hand with its 15.73 cm(6.2-inch) Cover Screen. Unfolded, the 19.21 cm(7.6-inch) Main Screen lets you really get into the zone. Pushed-back bezels and the Under Display Camera means there's more screen and no black dot getting between you and the breathtaking Infinity Flex Display.World’s first water resistant foldable smartphones. Be adventurous, rain or shine. You don't have to sweat the forecast when you've got one of the world's first water-resistant foldable smartphones.",
+      "image": "https://m.media-amazon.com/images/I/714QNdK8BWL._SL1500_.jpg"
+    },
+    {
+      "id": "19",
+      "category": "Mobiles",
+      "title": "Oneplus 11R",
+      "price": "39999",
+      "description": "50MP Main Camera with Sony IMX890 (OIS supported), 8MP Ultrawide Camera (FOV: 120 degree) and Macro Lens; 16MP Front (Selfie) Camera with EIS support.8GB LPDDR5X RAM, 128GB UFS 3.1 STORAGE.",
+      "image": "https://m.media-amazon.com/images/I/613SAOPmLeL._SL1500_.jpg"
+    },
+    {
+      "id": "20",
+      "category": "Mobiles",
+      "title": "iphone 14 Plus",
+      "price": "82990",
+      "description": "16.95 cm (6.7-inch) Super Retina XDR display.Cinematic mode now in 4K Dolby Vision up to 30 fps.Action mode for smooth, steady, handheld videos.",
+      "image": "https://m.media-amazon.com/images/I/61B0+qQriPL._SL1500_.jpg"
+    },
+    {
+      "id": "21",
+      "category": "Laptops",
+      "title": "Apple 2022 MacBook Pro Laptop",
+      "price": "149900",
+      "description": "The 13-inch MacBook Pro laptop is a portable powerhouse with M2 chip. Get more done faster with a next-generation 8-core CPU, 10-core GPU and up to 24GB of unified memory.Go all day and into the night, thanks to the power-efficient performance of the Apple M2 chip.Look sharp and sound great with a FaceTime HD camera and three-mic array.",
+      "image": "https://m.media-amazon.com/images/I/61bX2AoGj2L._SL1500_.jpg"
+    },
+    {
+      "id": "22",
+      "category": "Laptops",
+      "title": "Samsung Galaxy Book 3 360",
+      "price": "117900",
+      "description": "13th Generation Intel Core i5-1335U processor (up to 4.6 GHz 12 MB L3 Cache) | Memory: 16 GB LPDDR4x Memory | Storage: 512GB NVMe SSD| Intel Iris Xe Graphics.Display: 13.3inch Super Amoled, (1920 x 1080) resolution | 16:9 Aspect Ratio | 500nits HDR | Touchscreen with S-Pen | Design: Aluminum body with 12.9mm thinness and 1.16kg.",
+      "image": "https://m.media-amazon.com/images/I/71FvqXY6MgL._SL1500_.jpg"
+    },
+    {
+      "id": "23",
+      "category": "Laptops",
+      "title": "Microsoft Surface Laptop 4",
+      "price": "83990",
+      "description": "AMD Ryzen 5 4680U Processor.Windows 10 Home , Microsoft 365 Family 30-day trial | In the box: Surface Laptop 4, Power Supply, Quick Start Guide, Safety and warranty documents.8 GB LPDDR4X RAM | Storage: 256 GB SSD.Touchscreen | Thin and light design | Laptop weight: 1.26 Kg | Average battery life = 19 hrs.",
+      "image": "https://m.media-amazon.com/images/I/81KoSSAwH2L._SL1500_.jpg"
+    },
+    {
+      "id": "24",
+      "category": "Laptops",
+      "title": "Infinix INBook X1 Neo",
+      "price": "25999",
+      "description": " Intel Celeron Quad Core N5100 (1.1 GHz, Max Turbo Frequency at 2.8 GHz).RAM : 8GB RAM LPDDR4X 2933 MHz| STORAGE : 256GB SSD NVMe PCIE 3.0|DISPLAY : Full HD, IPS, 300 nits peak brightness, 100% sRGB, NTSC 72%.",
+      "image": "https://m.media-amazon.com/images/I/51DlM6OUjiL.jpg"
+    },
+    {
+      "id": "25",
+      "category": "Laptops",
+      "title": "HP Pavilion",
+      "price": "63500",
+      "description": "3.0GHz AMD ryzen5-4600h 4th Gen processor;8GB DDR4 RAM | 1TB 7200rpm hard drive + 256GB SSD.Intel wi-fi 6 ax 200 (2x2) and bluetooth 5.0",
+      "image": "https://m.media-amazon.com/images/I/71FeUtw+TPL._SL1500_.jpg"
+    },
+    {
+      "id": "26",
+      "category": "Laptops",
+      "title": "ASUS TUF Gaming F15",
+      "price": "64900",
+      "description": "10th Gen Intel Core i5-10300H, 2.5 GHz Base Speed (8MB Cache, up to 4.5 GHz Max Turbo Speed, 4 cores).Memory: 8GB SO-DIMM DDR4 2933MHz Upgradeble Up to 32GB using 2x SO-DIMM Slot | Storage: 1TB PCIe 3.0 NVMe M.2 SSD.Display: 15.6-inch ( 39.62 cm) FHD (1920 x 1080) 16:9 250nits, 144 Hz Refresh Rate, vIPS-level Anti-glare display, Contrast Ratio: 1000:1. Graphics: Dedicated NVIDIA GeForce GTX 1650 4GB GDDR6 VRAM.",
+      "image": "https://m.media-amazon.com/images/I/51oYoXdk0qL.jpg"
+    },
+    {
+      "id": "27",
+      "category": "Laptops",
+      "title": "Lenovo Ideapad 3",
+      "price": "44276",
+      "description": "Processor: 5th Gen AMD Ryzen 5 5500U|Speed: 2.1 GHz(Base)-4.0GHz(Max)|6 Cores 12 Threads. Windows 11 Home with Lifetime Validity. Memory and Storage: 8GB RAM DDR4, Upgradable up to 12GB|512 GB SSD.Display: 15.6inch FHD (1920x1080) | Brightness : 250nits | Anti-Glare | 45% NTSC || Graphics: Integrated AMD Radeon Graphics",
+      "image": "https://m.media-amazon.com/images/I/61q6x-ll5FL._SL1000_.jpg"
+    },
+    {
+      "id": "28",
+      "category": "Laptops",
+      "title": "MSI Bravo 15",
+      "price": "53000",
+      "description": "This MSI gaming laptop is powered by an AMD Ryzen 5 Hera Core 5600H mobile processor that is built on 7nm technology and the Radeon RX 5500M Graphics card to deliver desktop-caliber gaming performance.;For fluid and tear-free gameplay, this laptop features an AMD FreeSync Premium display that comes with a high refresh rate, low latency, and low framerate compensation.1920 X 1080 Pixels; Ram Memory Technology: Ddr4; Hard Disk Interface: Solid State; Display Resolution Maximum: 1920 X 1080.",
+      "image": "https://m.media-amazon.com/images/I/31iGjRVTkcL.jpg"
+    },
+    {
+      "id": "29",
+      "category": "Laptops",
+      "title": "Dell Inspiron 3520",
+      "price": "42303",
+      "description": "Processor: Intel i3-1215U (0.9 GHz up to 4.40 GHz), 6 Cores & 10MB Cache.RAM & Storage:8GB, 8Gx1, DDR4, 2666MHz Ach & 512GB SSD.15.6 inch FHD WVA AG 120Hz 250 nits Narrow Border & Integrated Graphics.",
+      "image": "https://m.media-amazon.com/images/I/51IzYNd7AaL._SL1080_.jpg"
+    },
+    {
+      "id": "30",
+      "category": "Laptops",
+      "title": "HP Pavilion Laptop 15",
+      "price": "72490",
+      "description": "Intel Core i5-1240P (up to 4.4 GHz with Intel Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)|Memory: 16 GB DDR4-3200 MHz RAM (2 x 8 GB) |Storage: 512 GB PCIe NVMe M.2 SSD. 15.6inch diagonal, FHDIPS, micro-edge, Brightview,Brightness: 250 nits, 141 ppi,Color Gamut: 45% NTSC,Screen Resolution: 1920 x 1080,Flicker-free|Graphics: Intel Iris Xe Graphics",
+      "image": "https://m.media-amazon.com/images/I/81WEgaozDWL._SL1500_.jpg"
+    }
+  ]

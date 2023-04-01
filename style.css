@@ -1,0 +1,635 @@
+/* defaults */
+:root {
+    --logoColorBlue: #70a3e3;
+    --logoColorLGreen: #4ce3c4;
+    --logoColorDGreen: #54d0cf;
+    --logoColorBlueContrast: #2c73d3;
+    --logoColorLGreenContrast: #14d3a4;
+    --logoColorDGreenContrast: #1cb0af;
+    --backGround: rgb(255, 255, 255);
+    --shadowColor: rgba(0,0,0,0.61);
+    --shadow: 2px 2px 7px 1px var(--shadowColor);
+    /* --testBorder: 2px solid black; */
+    --testBorder: none;
+
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+/* from shubham - start*/
+.header{
+    background-color: #f7f8f9;
+    box-shadow: 0 0 2px grey;
+    position: sticky;
+    top: 0%; 
+    z-index: 10; 
+    width: 100%;
+    height: 12vh;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    /* font-family: Poppins;   */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+}
+
+.logo{
+    margin-left: 5%;
+    margin-right: 3%;
+    width: 70px;
+    scale: 0.5;
+    padding-bottom: 10px;
+    /* border: 2px solid black; */
+}
+
+.logo_name {
+    margin: 0;
+    scale: 1;
+}
+
+.category_select{
+    /* border: 2px solid red; */
+    /* width: 18%; */
+    margin-left: 10%;
+}
+.select i{
+    font-size: 1.5rem;
+}
+.select{
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    font-size: 2.5rem;
+}
+
+
+.option_box {
+    box-shadow: 0 0 10px grey;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 60px;
+    border-radius: 10px;
+}
+
+.option{
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    width: 250px;
+    font-size: 2.5rem;  
+}
+.option:hover{
+    background-color: #c7dcff;
+}
+.option p{
+    margin-left: 10px;
+    color: #444444;
+}
+.option i{
+    font-size: 1.5rem;
+    color: #839a9c;
+}
+
+.option-mobile{
+    padding-left: 4px;
+}
+
+.fa-mobile-screen, .fa-headphones {
+    margin-left: 3px;
+}
+
+.fa-table-list {
+    margin-left: 2px;
+}
+
+.hidden{
+    display: block;
+}
+
+#moving {
+    transition: 0.2s;
+}
+.rotate{
+    transform: rotate(180deg);
+    transition: 0.2s;
+}
+.search_box{
+    display: flex;  
+    margin-left: 2%; 
+    height: 40px; 
+}
+.search_box i{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 1.5rem;
+    border-radius: 0 6px 6px 0;
+}
+.searchclass{
+    padding: 10px;
+    width: 400px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 6px 0 0 6px;
+}
+.filter{
+    font-size: 4rem;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 8px;
+}
+
+.filter-box {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #444444;
+    width: 230px;
+    cursor: context-menu;
+    box-shadow: 0 0 10px grey;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 60px;
+    border-radius: 10px;
+}
+.showElement{
+    display: block;
+}
+.hideElement{
+    display: none;
+}
+
+.filter-close-button{
+    position: absolute;
+    font-size: 2rem;
+    right: 15px;
+}
+.filter-close-button:hover{
+    color:#000;
+}
+
+.filter-option {
+    display: flex;
+    padding: 10px;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+}
+.filter-option input {
+    margin-left: 10px;
+    width: 60%;
+    height: 25px;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    border: 1.8px solid #444444;
+}
+
+.filter-option input::-webkit-outer-spin-button,
+.filter-option input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#min_input{
+    margin-left: 14px;
+    /* border: 2px solid red; */
+}
+
+.filter-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.filter-applyButton,.filter-resetButton {
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 4px 10px;
+    border: 1px solid #444444;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter-applyButton:hover,.filter-resetButton:hover {
+    color: black;
+    background-color: white;
+    font-weight: 700;
+}
+.filter-applyButton:active,.filter-resetButton:active {
+    scale: 0.9;
+}
+
+.selling_page {
+    /* border: 2px solid red; */
+    margin-left: 12%;
+}
+.selling_page button{
+    border-style: solid;
+    border-width: 5px;
+    /* border-color: rgb(46, 24, 24); */
+    border-left-color: #2c73d3;
+    border-top-color:#4ce3c4;
+    border-right-color: #2c73d3;
+    border-bottom-color: #4ce3c4;
+    
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    gap: 5px;
+}
+
+.user {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-bottom: 8px;
+}
+
+.usericon{
+    padding: 0px 5px 5px 5px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.outer_footer{
+    background-color: #ebeeef;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    bottom: -80px;
+    transition: 0.3s;
+    box-shadow: 0px -4px 20px black;
+}
+.outer_footer:hover {
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.inner_footer h2{
+    margin: 10px 0 15px 0;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    color: #07111e;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.inner_footer p{
+    margin: 8px 0 8px 0;
+    cursor: pointer;
+    font-size: 1.5rem;  
+}
+.inner_footer p a, .inner_footer p i{
+    font-size: 1.5rem;  
+}
+.inner_footer p a{
+    text-decoration: none;
+    color: #000;
+}
+/* from shubham - end */
+
+/* card - s */
+.card-cardSection {
+    padding: 30px 130px 70px 130px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: #14d3a4; */
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 50px;
+        
+}
+.card-cardHolder {
+    margin: 10px;
+    width: 210px;
+    height: 300px;
+    box-shadow: 2px 2px 7px 1px rgba(0,0,0,0.61);
+    /* padding: 5px; */
+    position: relative;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    transition: 0.1s;
+    /* background-color: rgb(255, 255, 255, 1); */
+    /* backdrop-filter: blur(50px);     */
+}
+
+.card-cardHolder:hover {
+    scale: 1.05;
+    transition: 0.3s;
+    box-shadow: 2px 2px 20px 10px rgba(52, 162, 170, 0.61);
+    /* box-shadow: 2px 2px 20px 10px rgba(18, 22, 68, 0.61); */
+    transition: 0.2s;
+}
+
+.card-cardHolder:active {
+    scale: 1;
+    opacity: 0.8;
+    transition: 0.2s;
+    box-shadow: 2px 2px 20px 10px #0533ff;
+}
+
+.card-image {
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    width: 210px;
+    height: 220px;
+    object-fit:contain;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.61);
+    background-color: #fff;
+}
+
+.card-addToWatchList-notAdded, .card-addToWatchList-added {
+    position: absolute;
+    font-size: 2.5rem;
+    top: 10px;
+    right: 10px;
+    color: #ffffff;
+    text-shadow: -0.6px -0.6px 0 #000, 0.6px -0.6px 0 #000, -0.6px 0.6px 0 #000, 0.6px 0.6px 0 #000;
+    transition: 0.35s;
+}
+
+.card-addToWatchList-notAdded:hover, .card-addToWatchList-added:hover {
+    color: #000;
+}
+
+/* on click remove "notadded", "fa-solid", "fa-apple-whole"
+            add "added", "fa-brands", "fa-apple"*/
+
+
+.card-addToWatchList-added {
+    top: 8px;
+    right: 9px;
+    font-size: 3rem;
+    /* color: #4d89d8; */
+    color: #092547;
+    text-shadow: 0.5px -0.5px 4px #14d3a4, -0.5px 0.5px 4px #14d3a4, 0.5px 0.5px 4px #14d3a4;
+    transition: 0.35s;
+}
+
+.card-details {
+    position: absolute;
+    font-size: 2.5rem;
+    bottom: 4px;
+    width: 100%;
+    height: 67px;
+    padding: 1px 6px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+
+.card-itemPriceSec {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card-itemTitle, .card-itemDesc {
+    
+    opacity: 80%;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* card - e */
+
+/* modal - s */
+.blur-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0);
+    transition: 0.5s;
+    backdrop-filter: blur(25px);
+}
+
+.modal-container{
+    padding: 20px;
+    position: fixed;
+    top: 10vh;
+    left: 15vw;
+    height: 80vh;
+    width: 70vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    z-index: 11;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4),-5px -5px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(204, 204, 204, 0.65);
+    transition: 0.4s;
+}
+
+.modal-image {
+    background: rgba(255, 255, 255, 1);
+    /* backdrop-filter: blur(500px); */
+    object-fit: contain;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.modal-contents{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-priceSection, .modal-descriptionSection, .modal-contactSection {
+    width: 100%;
+    border: 2px solid black;
+    height: 33.33%;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(204, 204, 204, 1);
+    font-size: 3rem;
+    padding: 20px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+}
+.modal-priceSection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.modal-priceSecTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    font-size: 2rem;
+}
+
+.modal-price{
+    font-size: 3.5rem;
+    font-weight:bold;
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 20px;
+}
+.modal-icon {
+    font-size: 3rem;
+}
+
+.modal-description {
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+}
+
+.modal-description::-webkit-scrollbar {
+    display: none;
+  }
+
+.modal-descriptionSection>h4 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.modal-contactSection{
+    position: relative;
+}
+
+.modal-contactButton {
+    position: absolute;
+    width: 65%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border: 2px solid black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 2rem;
+    transition: 0.2s;
+    text-align: center;
+    line-height: 70%;
+    background-color: #fff;
+    z-index: 11;
+}
+
+.modal-contactButton:hover {
+    background-color: #000;
+    transition: 0.2s;
+    color: #fff;
+}
+
+.modal-contactInfo {
+    position: absolute;
+    width: 58%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    padding: 13px 10px 10px 10px;
+    border-radius: 20px;
+    font-size: 60%;
+    transition: 0.2s;
+    text-align: left;
+    background-color: rgb(1, 153, 1);
+    color: white;
+}
+.whatsapp-icon{
+    font-size: 2rem;
+    padding-left: 5px;
+    /* border: 2px solid black; */
+    color: white;
+}
+
+.modal-cI-close {
+    translate: -50% -50%;
+    transition: 0.5s;
+}
+
+.modal-cI-open {
+    translate: -50% 10%;
+    transition: 0.5s;
+}
+
+.component-show {
+    /* transition: 2s; */
+    animation-name: fade-in;
+    animation-duration: 0.75s;
+}
+
+.component-hide {
+    transition: 0.5s;
+    display: none;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* modal - e */
+
+.DataNotExist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 50vh;
+    /* border: 2px solid black; */
+}
+.DataNotExist img{
+    scale: 1.4;
+    /* width:100%; */
+    /* height:100%; */
+    /* border: 2px solid black; */
+}

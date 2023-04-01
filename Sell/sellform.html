@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sellform.css" />
+    <title>Sell Your Product!</title>
+  </head>
+  <body>
+    <i
+      onclick="goHome()"
+      class="sellForm-backButton fa-solid fa-circle-arrow-left"
+    ></i>
+    <h1>Please Enter These Details:</h1>
+    <form id="my-form">
+      <label for="name-input">Name:</label>
+      <input type="text" id="name-input" name="name" required /><br />
+
+      <label for="email-input">Email:</label>
+      <input type="email" id="email-input" name="email" required /><br />
+
+      <label for="contact-input">Contact Number:</label>
+      <input type="text" id="contact-input" name="contact" required /><br />
+
+      <label for="category-select">Select the Category</label>
+      <select id="category-select" name="gender">
+        <option value="" disabled selected></option>
+        <option value="Mobile">Mobile</option>
+        <option value="Laptop">Laptop</option>
+        <option value="Headphone">Headphone</option>
+      </select>
+
+      <label for="image-input">Upload Product Picture:</label>
+      <input type="file" id="image-input" name="image" required /><br />
+
+      <label for="price-input">Expected Price:</label>
+      <input type="text" id="price-input" name="price" required /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+    <script
+      src="https://kit.fontawesome.com/2fe2a0f171.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="sellform.js"></script>
+  </body>
+</html>
